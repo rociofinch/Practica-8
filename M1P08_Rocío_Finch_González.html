@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 7</title>
+    <!--Añado el texto centrado mediante estilo CSS-->
+    <style>
+        table {
+            width: 80%;
+            border: 3px solid red; 
+        }
+        td {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th {
+            font-size: 26px;
+        }
+    </style>
+</head>
+<body>
+    <table> <!--<table style="width: 80%; border: 3px solid red"> Esta sería la otra forma de añadir
+        el borde y el ancho de la tabla-->
+    
+        <tr>
+            <th colspan="3">Continentes y sus países</th>
+        </tr>
+        <tr>
+            <th scope="row">Europa</th>
+            <th scope="row">Asia</th>
+            <th scope="row">América</th>
+        </tr>
+        
+        <tr>
+            <td>España</td> <!--<td style="text-align: center;">España</td> Esta sería la forma en html de centrar el texto-->
+            <td>China</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Francia</td>
+            <td>Mongolia</td>
+            <td>Colombia</td>
+        </tr>
+        <tr>
+            <td>Italia</td>
+            <td>India</td>
+            <td>Brasil</td>
+        </tr>
+    </table>
+</body>
+</html>
